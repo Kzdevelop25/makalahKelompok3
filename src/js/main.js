@@ -19,4 +19,4 @@ function showOverlay() {
 }
 
 // Call the showOverlay function every 1 second
-setInterval(showOverlay, 2500);
+setInterval(showOverlay, 1500);

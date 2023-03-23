@@ -109,14 +109,6 @@ html {
     position: absolute;
     transition: top .5s ease;
     color: white;
-    top: 100%;
-}
-
-.create-column:hover .overlay {
-    opacity: 1;
-}
-
-.create-column:hover .overlay p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -124,6 +116,24 @@ html {
 
 .created h3 {
     padding: .6rem;
+}
+
+@keyframes hover {
+
+    0% {
+
+    }
+
+    50% {
+
+    }
+    75% {
+
+    }
+    100%{
+
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -220,9 +230,3 @@ html {
     width: 50px;
     height: 50px;
 }
-
-
-
-
-
-

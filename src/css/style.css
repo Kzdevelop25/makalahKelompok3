@@ -19,7 +19,7 @@ html {
 .header {
     width: 90%;
     margin: auto;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .header .title {
@@ -109,6 +109,14 @@ html {
     position: absolute;
     transition: top .5s ease;
     color: white;
+    top: 100%;
+}
+
+.create-column:hover .overlay {
+    opacity: 1;
+}
+
+.create-column:hover .overlay p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
